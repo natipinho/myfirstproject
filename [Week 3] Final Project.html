@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>I 🫶🏻 Cats 🐱 - SheCodes Basic [Final Project]</title>
-     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <main class="finalproject">
@@ -74,9 +74,9 @@
         </li>
       </ul>
       <div class="btns">
-        <button class="buttonLearn">Learn more</button>
-        <button class="buttonAdopt">Adopt a cat</button>
-        <button class="buttonMusic">Cat music</button>
+        <button class="buttonLearn">Watch a Movie</button>
+        <button class="buttonAdopt">Adopt a Cat</button>
+        <button class="buttonMusic">Cat Music</button>
       </div>
       <br />
       <hr />
@@ -91,12 +91,14 @@
   <script>
     function adoptCat() {
       let age = prompt("How old are you?");
-      if (age < 18) {
-        alert("Sorry! You cannot adopt a cat on your own. Ask your parents!");
-      } else {
-        alert(
-          "Cool! Find your local animal shelter and prepare to meet your next best friend!"
-        );
+      let numericAge = Number(age);
+
+      if (age.trim() === "" || isNaN(numericAge)){
+         alert ("Please, insert a number for your age!");
+      } else if (age < 18) {
+         alert("Sorry! You cannot adopt a cat on your own. Ask your parents to take you to a local shelter!");
+      } else if (age >= 18) {
+         alert("Cool! Find your local animal shelter and prepare to meet your next best friend!");
       }
     }
     let adopt = document.querySelector(".buttonAdopt");
