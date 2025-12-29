@@ -1,0 +1,112 @@
+      .finalproject {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        background-image: linear-gradient(
+          #fbd3d3,
+          #d37373,
+          #5a1d2f,
+          #3a1f24,
+          #000000
+        );
+        color: white;
+        padding: 30px;
+        margin: 30px auto;
+        width: 80%;
+        max-width: 1200px;
+        border-radius: 10px;
+      }
+      h1 {
+        font-weight: bolder;
+        font-size: 50px;
+        text-align: center;
+        color: #5a1d2f;
+        margin: 1px 5px;
+      }
+      h2 {
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        color: #5a1d2f;
+        margin: 1px 5px 2px 5px;
+      }
+      .pics img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        max-height: auto;
+        padding: 15px 0 15px 0;
+      }
+      p {
+        text-align: justify;
+        padding: 5px 30px 15px 30px;
+        line-height: normal;
+      }
+      li {
+        list-style: none;
+        text-align: justify;
+        margin-bottom: 10px;
+        padding: 5px 30px 5px 30px;
+      }
+      a {
+        color: #d37373;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #d37373;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      button {
+        border: none;
+        font-size: 20px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+        border-radius: 10px;
+        padding: 5px 15px;
+        margin: 20px 0px;
+        display: block;
+        color: #ffffff;
+        box-shadow: #5b5656 2px 2px 5px;
+      }
+      button:hover {
+        transition: all 300ms ease-in-out;
+        cursor: pointer;
+      }
+      .btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .buttonLearn {
+        margin: 30px;
+        background-color: #e50914;
+      }
+      .buttonLearn:hover {
+        background-color: #fbd3d3;
+        color: #e50914;
+      }
+      .buttonAdopt {
+        margin: 30px;
+        background-color: #fbd3d3;
+        color: #3a1f24;
+      }
+      .buttonAdopt:hover {
+        margin: 30px;
+        background-color: #3a1f24;
+        color: #fbd3d3;
+      }
+      .buttonMusic {
+        margin: 30px;
+        background-color: #d37373;
+      }
+      .buttonMusic:hover {
+        margin: 30px;
+        background-color: #fbd3d3;
+        color: #d37373;
+      }
+      .footer {
+        text-align: center;
+      }
+      .strong {
+        text-decoration: underline;
+      }
